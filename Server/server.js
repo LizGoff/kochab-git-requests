@@ -17,6 +17,11 @@ app.get('/all-quotes', (req, res) => {
     res.send(quotes_data);
 });
 
+app.get('/', (req, res) => {
+    res.send(quotes_data);
+});
+
+
 // app.get('/', (req, res) => {
 //     // console.log('yep it worked!');
 //     res.send('happy wednesday');
