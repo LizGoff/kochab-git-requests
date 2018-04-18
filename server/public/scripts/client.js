@@ -25,6 +25,7 @@ function changeQuote() {
     })
     .then(function(response){
         console.log(response);
+        $('#displayQuote').text(`${response.quote} - ${response.author}`);
     });
 
 }
