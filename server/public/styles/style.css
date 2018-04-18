@@ -1,4 +1,8 @@
 body {
-    background: bisque;
+    background-image: url('IMG_9097.JPG');
+    opacity: 30%;
+}
+
+h1 {
     color: black;
 }

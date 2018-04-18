@@ -9,7 +9,7 @@ const quotes_data = require('./modules/quotes-data');
 app.use(express.static('server/public'));
 
 app.get('/quote', (req, res) => {
-   const randomNumber =  Math.floor(Math.random() * quotes_data.length);
+    const randomNumber = Math.floor(Math.random() * quotes_data.length);
     res.send(quotes_data[randomNumber]);
 });
 

@@ -37,9 +37,9 @@ function listQuotes() {
     })
         .then(function (response) {
             console.log(response);
-            response.forEach(object){
+            response.forEach((object) => {
                 $('#listOfQuotes').append(`<p>${object.quote} - ${object.author}</p>`);
-            };
+            });
         });
 }
 
