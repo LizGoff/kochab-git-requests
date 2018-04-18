@@ -6,12 +6,6 @@ const PORT = 5000;
 
 const quotes_data = require('./modules/quotes-data');
 
-// const style = require('./public/style.css');
-
-// const client = require('./public/client.js');
-
-// const index = require('./public/index.html');
-
 app.use(express.static('server/public'));
 
 app.get('/quote', (req, res) => {
